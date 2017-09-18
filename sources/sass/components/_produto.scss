@@ -1,0 +1,35 @@
+.produto{
+	text-align: center;
+	.box-text{
+		margin-bottom: 50px;
+		p{
+			margin-top:25px;
+			    line-height: 24px;
+		}
+	}
+	.thumbnail{
+		box-shadow: none !important;
+		border: none !important;
+		h3{
+			text-transform: uppercase;
+		}
+		img{
+			width: 100%;
+		}
+		p{
+			height: 60px;
+			margin-top: 20px;
+		}
+		.button-main{
+			background: #336fa1;
+			color: #fff;
+			font-size: 14px;
+			transition: all .3s linear;
+			&:hover{
+
+				background: #f2f5f6;
+				color: #336fa1;
+			}
+		}
+	}
+}

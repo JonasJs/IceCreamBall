@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import "extends/mixins";
+@import "extends/variables";
 @import "components/menu";
-
+@import "components/header";
+@import "components/novidades";
+@import "components/empresa";
+@import "components/produto";
+@import "components/instagram";
+@import "components/contato";
+@import "components/footer";
 
 
 *{ 

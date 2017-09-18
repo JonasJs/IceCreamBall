@@ -1,0 +1,36 @@
+.empresa{
+	width: 100%;
+	max-height:500px !important;
+	min-height:500px !important;
+	background:url("../images/empresa.jpg") no-repeat;
+	background-size: 100%;
+	margin: 40px 0;
+	overflow: hidden;
+	color: #3e4b57;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	.box-text{
+		opacity: 0.9;
+		background: #fff;
+		text-align: justify;
+		text-align: center;
+		vertical-align: middle;
+		height: 290px;
+		padding:40px;
+    	line-height: 24px;
+    	h1{
+    		font-weight: bold;
+    		opacity: 1;
+    		text-transform: uppercase;
+    	}
+    	p{
+    		opacity: 1;
+    		margin-top: 30px;
+    		text-align: justify;
+    	}
+	}
+}
